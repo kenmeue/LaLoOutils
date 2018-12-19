@@ -20,6 +20,7 @@ namespace lalocation.API.Controllers
         {
             _context = context;
         }
+         [AllowAnonymous]
         // GET api/values
         [HttpGet]
         public async Task<IActionResult> GetValues()
