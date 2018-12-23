@@ -17,7 +17,7 @@ model: any = {};
       console.log('logged in successfully');
       console.log(localStorage.getItem('token'));
     }, error => {
-      console.log('Failed to login');
+      console.log(error);
     });
   }
 
