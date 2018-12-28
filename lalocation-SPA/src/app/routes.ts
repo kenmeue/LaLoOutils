@@ -7,8 +7,58 @@ import { AuthGuard } from './_guards/auth.guard';
 
 export const appRoutes: Routes = [
     {path: '', component: HomeComponent},
-    {
-        path: '',
+    { // messagerie
+        path: 'exchange',
+        runGuardsAndResolvers: 'always',
+        canActivate: [AuthGuard],
+        children: [
+            {path: 'members', component: MemberListComponent},
+            {path: 'messages', component: MessagesComponent},
+            {path: 'lists', component: ListsComponent},
+        ]
+    },
+    { // location
+        path: 'location',
+        runGuardsAndResolvers: 'always',
+        canActivate: [AuthGuard],
+        children: [
+            {path: 'members', component: MemberListComponent},
+            {path: 'messages', component: MessagesComponent},
+            {path: 'lists', component: ListsComponent},
+        ]
+    },
+    { // Transactions
+        path: 'location',
+        runGuardsAndResolvers: 'always',
+        canActivate: [AuthGuard],
+        children: [
+            {path: 'members', component: MemberListComponent},
+            {path: 'messages', component: MessagesComponent},
+            {path: 'lists', component: ListsComponent},
+        ]
+    },
+    { //  Mot de Pass
+        path: 'location',
+        runGuardsAndResolvers: 'always',
+        canActivate: [AuthGuard],
+        children: [
+            {path: 'members', component: MemberListComponent},
+            {path: 'messages', component: MessagesComponent},
+            {path: 'lists', component: ListsComponent},
+        ]
+    },
+    { // Tournois
+        path: 'location',
+        runGuardsAndResolvers: 'always',
+        canActivate: [AuthGuard],
+        children: [
+            {path: 'members', component: MemberListComponent},
+            {path: 'messages', component: MessagesComponent},
+            {path: 'lists', component: ListsComponent},
+        ]
+    },
+    { // administrateur
+        path: 'location',
         runGuardsAndResolvers: 'always',
         canActivate: [AuthGuard],
         children: [
