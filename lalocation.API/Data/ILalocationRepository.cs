@@ -11,5 +11,7 @@ namespace lalocation.API.Data
         Task<bool> SaveAll();
         Task<IEnumerable<User>> GetUsers();
         Task<User> GetUser(int id);
+        Task<IEnumerable<Locataire>> GetLocataires();
+        Task<Locataire> GetLocataire(int id);
     }
 }

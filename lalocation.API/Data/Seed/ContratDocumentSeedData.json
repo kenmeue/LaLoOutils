@@ -1,0 +1,19 @@
+[
+    {
+      "id": "1",
+      "Libelle": "CNI - Locataire"
+     
+    },
+    {
+      "id": "2",
+      "Libelle": "CNI - Garant"
+    },
+    {
+      "id": "3",
+      "Libelle": "Assurance"
+    },
+    {
+      "id": "4",
+      "Libelle": "Contrat travail"
+    }
+  ]

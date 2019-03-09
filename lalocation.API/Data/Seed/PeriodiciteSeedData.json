@@ -1,0 +1,15 @@
+[
+    {
+      "id": "1",
+      "Libelle": "Mensuel"
+     
+    },
+    {
+      "id": "2",
+      "Libelle": "Annuel"
+    },
+    {
+      "id": "3",
+      "Libelle": "Bi-mensuel"
+    }
+  ]

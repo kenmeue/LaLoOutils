@@ -23,6 +23,18 @@ namespace lalocation.API.Data
             _context.Remove<T>(entity);
         }
 
+        public  async Task<IEnumerable<Locataire>> GetLocataires()
+        {
+            return await _context.Locataires.Include(u => u.User)
+            .Include(b => b.LocationsEnCours)
+            .Include(b => b.LocationsHistorique).ToListAsync();
+        }
+
+        public async Task<Locataire> GetLocataire(int id)
+        {
+            return await _context.Locataires.Include(u => u.User).FirstOrDefaultAsync(l => l.Id == id);
+        }
+
         public async Task<User> GetUser(int id)
         {
            var user = await _context.Users.Include(p=>p.Photos).FirstOrDefaultAsync(u => u.Id == id);

@@ -1,0 +1,23 @@
+[
+    {
+      "id": "1",
+      "Libelle": "En attente"
+     
+    },
+    {
+      "id": "2",
+      "Libelle": "Payé"
+    },
+    {
+      "id": "3",
+      "Libelle": "Virement reçu"
+    },
+    {
+      "id": "4",
+      "Libelle": "Virement en cours"
+    },
+    {
+      "id": "5",
+      "Libelle": "Paiement par chèque"
+    }
+  ]

@@ -1,0 +1,50 @@
+[{
+	
+	"User": {
+	
+      "Username": "Guy json",
+      "Gender": "male",
+      "DateOfBirth": "1953-11-16",
+      "Password": "password",
+      "KnownAs": "Marcia",
+      "Created": "2017-03-27",
+      "LastActive": "2017-03-27",
+      "Introduction": "Ullamco incididunt nisi ipsum non incididunt culpa Lorem aliquip. Nisi elit fugiat est Lorem reprehenderit occaecat occaecat aliquip do adipisicing fugiat duis in ullamco. Dolor veniam anim reprehenderit sint nostrud id nostrud consectetur. Culpa laborum adipisicing laborum pariatur quis laborum sunt aute aute adipisicing ex.\r\n",
+      "LookingFor": "Proident ea anim Lorem esse cupidatat irure ad adipisicing eiusmod pariatur veniam enim. Exercitation ex laboris deserunt do commodo ea sit anim magna enim est velit aliquip. Non pariatur officia dolore sint et nulla cupidatat amet sit Lorem non officia qui mollit. Qui labore do aliquip veniam magna mollit et ullamco incididunt laborum. Aliqua amet in Lorem culpa minim quis incididunt deserunt. Enim cillum nostrud dolore aute Lorem mollit. Laborum fugiat aute Lorem nisi nulla.\r\n",
+      "Interests": "Consequat laborum eu eiusmod velit ex irure deserunt esse excepteur nostrud veniam reprehenderit dolor.",
+      "City": "Oneida",
+      "Country": "India",
+      "Photos": [
+        {
+          "url": "https://randomuser.me/api/portraits/women/47.jpg",
+          "isMain": true,
+          "description": "Culpa incididunt do nulla adipisicing sit sunt amet non sit ea minim."
+        }
+      ]
+    },
+	"Statut": {
+		"id": 14,
+		"libelle": "test statut"
+	},
+	"Reference": "Ref1",
+	"LocationsEnCours": [{
+			"Type": null,
+			"Statut": {
+	  "id": 12,
+	  "libelle": "test statut"
+  },
+			"Reference": "testini",
+			"Description": "initialisation json",
+			"DateDebutExploitation": "2019-02-07T00:00:00",
+			"DateFinExploitation": "2020-02-07T00:00:00",
+			"Adresse": {
+				
+				"Numero": "103",
+				"Complement": null,
+				"CodePostal": "78500",
+				"Ville": "Sartrouville",
+				"Pays": "France"
+			}			
+		}
+	]
+}]

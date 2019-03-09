@@ -1,0 +1,19 @@
+[
+    {
+      "id": "1",
+      "Libelle": "En place"
+     
+    },
+    {
+      "id": "2",
+      "Libelle": "Arrêté"
+    },
+    {
+      "id": "3",
+      "Libelle": "Suspendu"
+    },
+    {
+      "id": "4",
+      "Libelle": "Terminé"
+    }
+  ]

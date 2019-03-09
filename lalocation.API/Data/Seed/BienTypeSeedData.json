@@ -1,0 +1,23 @@
+[
+    {
+      "id": "1",
+      "Libelle": "Chambre"
+     
+    },
+    {
+      "id": "2",
+      "Libelle": "Studio"
+    },
+    {
+      "id": "3",
+      "Libelle": "Appartement"
+    },
+    {
+      "id": "4",
+      "Libelle": "Maison"
+    },
+    {
+      "id": "5",
+      "Libelle": "Immeuble"
+    }
+  ]

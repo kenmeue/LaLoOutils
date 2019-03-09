@@ -1,0 +1,36 @@
+<div class="continer mt-4">
+  <div class="row">
+    <div class="col-sm_4">
+      <div class="card">
+        <img class="img-thumbnail" src="{{locataire?.user?.photoUrl}}" alt="{{locataire?.user?.knownAs}}">
+        <div class="card-body">
+          <div>
+            <strong>Location:</strong>
+            <p>{{locataire?.user?.city}}, {{locataire?.user?.country}}</p>
+          </div>
+          <div>
+              <strong>Age:</strong>
+              <p>{{locataire?.user?.age}}</p>
+            </div>
+            <div>
+                <strong>Last Active:</strong>
+                <p>{{locataire?.user?.lastActive}}</p>
+              </div>
+              <div>
+                  <strong>Member since:</strong>
+                  <p>{{locataire?.user?.created}}</p>
+                </div>
+        </div>
+        <div class="card-footer">
+          <div class="btn-group d-flex">
+              <button class="btn btn-primary w-100">Like</button>
+              <button class="btn btn-success w-100">Message</button>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-8">
+
+    </div>
+  </div>
+</div>
